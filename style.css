@@ -1,0 +1,94 @@
+.container {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.texto {
+    margin: auto;
+    width: 1200px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.texto {
+    font-weight: bold;
+    margin-top: 5%;
+    text-align: center;
+    font-size: 2em;
+    color: black;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0, 2);
+    font-family: Arial, sans-serif;
+}
+
+.sub_texto {
+    text-align: justify;
+    font-size: 1.3em;
+    margin: auto;
+    width: 1200px;
+}
+
+.conteudo {
+    text-align: justify;
+    font-size: 1.3em;
+    margin: auto;
+    width: 1200px;
+}
+
+.exhibition {
+    font-weight: bold;
+    text-align: center;
+    font-size: 0.8em;
+    color: black;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0, 2);
+    font-family: Arial, sans-serif;
+
+}
+
+.topics{
+    justify-items: center;
+    
+}
+
+h3 {
+    color: #007bff;
+    font-size: 1.5em;
+
+}
+ul {
+    list-style: none; /* Remove os marcadores padrão */
+    padding: 0; /* Remove o padding padrão */
+    font-size: 1.3em;
+}
+
+li {
+    position: relative; /* Para posicionamento do símbolo */
+    padding-left: 30px; /* Espaço para o símbolo */
+    
+}
+
+.check-symbol {
+    position: absolute;
+    left: 0%; /* Alinha à esquerda do item */
+    color: blue; /* Cor do símbolo */
+    font-size: 30px; /* Tamanho do símbolo */
+}
+
+.share-buttons {
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+.share-buttons button {
+    margin-right: 10px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.share-buttons button:hover {
+    background-color: #0056b3;
+}
